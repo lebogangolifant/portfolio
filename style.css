@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    color: #07263f;
+
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+/* header */
+.about-icon {
+    float: right;
+    margin: 9px 30px 0 0;
+}
+
+.about-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #09bd36;
+}
+
+/* main content */
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Cabin', sans-serif;
+    margin-top: 180px;
+    line-height: 25px;
+}
+
+.title h1 {
+    letter-spacing: 5px;
+}
+
+.title p span {
+    color: #09bd36;
+    font-weight: bold;
+}
+
+.nav-btn {
+    margin-top: 50px;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: #07263f;
+    padding: 0 2px;
+}
+
+.projects-icon a {
+    position: fixed;
+
+    bottom: 0;
+    text-align: center;
+}
+
+.projects-icon a {
+    padding: 0 5px;
+    color: #09bd36;
+    text-align: center;
+}
