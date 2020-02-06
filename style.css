@@ -1,71 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #e6e6e6;
-    color: #07263f;
-
-    font-family: 'Cabin Condensed', sans-serif;
+  background-color: #fdd935;
+  color: #000;
+  font-family: "Cabin Condensed", sans-serif;
 }
 
 /* header */
 .about-icon {
-    float: right;
-    margin: 9px 30px 0 0;
+  float: right;
+  margin: 30px 50px 0 0;
 }
 
 .about-icon a {
-    text-decoration: none;
-    font-size: 30px;
-    color: #09bd36;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}
+.vprofileLine {
+  border-left: 1.5px solid #4d4d4d;
+  height: 180px;
+  margin: 80px -16px 0 0;
+  float: right;
 }
 
 /* main content */
 .container {
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
 }
 
 .title {
-    font-family: 'Cabin', sans-serif;
-    margin-top: 180px;
-    line-height: 25px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 150px;
+  line-height: 28px;
 }
 
 .title h1 {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.title h1 span {
+  color: #fff;
 }
 
-.title p span {
-    color: #09bd36;
-    font-weight: bold;
+.title p {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #4d4d4d;
 }
 
 .nav-btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .nav-btn a {
-    text-decoration: none;
-    color: #07263f;
-    padding: 0 2px;
+  text-decoration: none;
+  color: #000;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.hprofileLine {
+  border: 1px solid #4d4d4d;
+  width: 458px;
+  margin: -10px 0 0 720px;
+}
+
+.connect-line {
+  font-size: 35px;
+  font-weight: lighter;
+  color: #fff;
+  float: right;
+  margin: -40px 0 0 50px;
+}
+
+.projects-icon {
+  position: fixed;
+  margin-left: 20px;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .projects-icon a {
-    position: fixed;
-
-    bottom: 0;
-    text-align: center;
-}
-
-.projects-icon a {
-    padding: 0 5px;
-    color: #09bd36;
-    text-align: center;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #000;
+  font-size: 20px;
 }
