@@ -14,16 +14,15 @@
     <script src="https://kit.fontawesome.com/bcdb4329ce.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header>
-        <a href="index.html" class="logo"><img src="img/logo.png" alt="https://lebogangolifant@github.com"></a>
-        <!--<a href="#" class="fas fa-angle-down"> </a>-->
-    </header>
-    <!-- profile vertical line-->
-    <!--<div class="vprofileLine"></div>-->
+<body class="pages-bg-color">
 
     <section class="container">
-        <nav class="nav-btn">
+        <header>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="https://lebogangolifant@github.com"></a>
+            <!--<a href="#" class="fas fa-angle-down"> </a>-->
+        </header>
+
+        <nav class="pages-nav-btn">
             <!--<a href=""><strong>.&nbsp;</strong> what i do</a>-->
             <a href="projects.html"><strong>.&nbsp;</strong> projects</a>
             <a href="contact.html"><strong>.&nbsp;</strong> get in touch</a>
@@ -38,15 +37,15 @@
 
         <article class="short-profile">
             <h1 class="page-heading">what i do</h1>
-            <a href="">
-                <hr class="h-skillsLine" /></a>
+            <!--<a href="">
+                <hr class="h-skillsLine" /></a>-->
         </article>
 
         <!-- services overview -->
-        <article class="services-container">
+        <article class="services-container" id="services-bg-color">
             <div class="services">
                 <ul>
-                    <li><i class="fas fa-chevron-right fa-fw"></i> &nbsp;Implements responsive design, mobile first
+                    <li><i class="fas fa-chevron-right fa-fw"></i> &nbsp;Implements responsive web design, mobile first
                         approach.</li>
                     <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Testing and debugging</li>
                     <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Cross browser compatibility testing</li>
@@ -62,8 +61,8 @@
 
         <article class="short-profile">
             <h1 class="page-heading">technologies</h1>
-            <a href="">
-                <hr class="h-skillsLine" /></a>
+            <!--<a href="">
+                <hr class="h-skillsLine" /></a>-->
         </article>
 
         <!-- technology overview -->
@@ -73,34 +72,47 @@
                 <h1>Development<a href="#" class="fas fa-cogs"> </a></h1>
             </div>
 
-            <div class="development">
-                <p><i class="fab fa-html5 fa-fw"></i>HTML5</p>
-                <p><i class="fab fa-css3-alt fa-fw"></i>CSS3</p>
-                <p><i class="fab fa-js fa-fw"></i>JavaScript (ES6+)</p>
-                <p><i class="fab fa-react fa-fw"></i>React</p>
-                <p><i class="fab fa-node fa-fw"></i>&nbsp;Node.js</p>
+            <div class="development-stack">
+                <p><i class="fab fa-html5 fa-fw" style="color: #f06529;"></i>&nbsp;HTML5</p>
+                <p><i class="fab fa-css3-alt fa-fw" style="color: #2965f1 ;"></i>&nbsp;CSS3</p>
+                <p><i class="fab fa-js fa-fw" style="color: #f0db4f;"></i>&nbsp;JavaScript (ES6+)</p>
+                <p><i class="fab fa-react fa-fw" style="color: #00d8ff;"></i>&nbsp;React</p>
+                <p><i class="fab fa-node fa-fw" style="color: #44883e;"></i>&nbsp;Node.js</p>
             </div>
 
-            <div class="tools">
-                <h1>Tools<a href="#" class="fas fa-tools"> </a></h1>
-                <p><i class="fas fa-plus fa-fw"></i>Git + GitHub</p>
-                <p><i class="fas fa-plus fa-fw"></i>Bitbucket</p>
-                <p><i class="fas fa-plus fa-fw"></i>Command Line</p>
-                <p><i class="fas fa-plus fa-fw"></i>SASS</p>
-                <p><i class="fas fa-plus fa-fw"></i>Gulp</p>
-                <p><i class="fas fa-plus fa-fw"></i>Jasmine</p>
-            </div>
 
-            <div class="knowledge">
-                <h1>Knowledge<a href="#" class="fas fa-download"> </a></h1>
-                <p><i class="fas fa-plus fa-fw"></i>TDD</p>
-                <p><i class="fas fa-plus fa-fw"></i>OOP programming</p>
-                <p><i class="fas fa-plus fa-fw"></i>RESTful API</p>
-                <p><i class="fas fa-plus fa-fw"></i>Accessibility</p>
-                <p><i class="fas fa-plus fa-fw"></i>SEO</p>
+            <div class="tools-knowledge">
+                <div class="tools-heading">
+                    <h1 class="tools-h1">Tools<a href="#" class="fas fa-tools"> </a></h1>
+                </div>
+
+                <div class="tools">
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Git + GitHub</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Bitbucket</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Command Line</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;SASS</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Gulp</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Jasmine</p>
+                </div>
+
+                <div class="knowledge-tools">
+                    <h1 class="knowledge-h1">Knowledge<a href="#" class="fas fa-download"> </a></h1>
+                </div>
+
+                <div class="knowledge">
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;TDD</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;OOP programming</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;RESTful API</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;Accessibility</p>
+                    <p><i class="fas fa-plus fa-fw"></i>&nbsp;SEO</p>
+                </div>
             </div>
         </article>
+        <footer class="skills-footer">
+            <p>Wanna get in touch or talk about a project? <br>Feel free to get intouch with me me via contact page</p>
+        </footer>
     </section>
+
     <!-- main script -->
     <script src="main.js"></script>
 </body>
