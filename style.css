@@ -355,9 +355,86 @@ body {
   margin: 100px 0 100px 0;
   justify-content: center;
 }
-.project-column img {
-  margin: 20px;
+
+.project-case-study {
+  margin: 35px;
+  text-align: justify;
 }
+
+.project-case-study p {
+  line-height: 25px;
+}
+
+.project-column img {
+  margin: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.project-case-study .button {
+  background-color: #fdd935;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  margin-left: 8px;
+}
+
+/*button 1 hover */
+.btn1:hover {
+  background-color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #4d4d4d;
+}
+
+.btn1:hover a {
+  color: #4d4d4d;
+}
+
+/*button 2 hover */
+.btn2:hover {
+  background-color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #4d4d4d;
+}
+
+.btn2:hover a {
+  color: #4d4d4d;
+}
+
+.project-case-study i {
+  color: #000;
+  font-size: 12px;
+  padding: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.project-case-study a {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
 
 /*===========================
 /* CONTACT PAGE */
