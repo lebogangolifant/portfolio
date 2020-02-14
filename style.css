@@ -432,10 +432,42 @@ body {
   text-align: center;
 }
 
-
-
-
-
 /*===========================
 /* CONTACT PAGE */
 /*===========================*/
+.contact-profile {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 90px;
+}
+
+.contact-info a {
+  font-size: 60px;
+  padding: 45px;
+  color: #000;
+  text-decoration: none;
+}
+
+#contact-bg-color {
+  background-color: #fdd935;
+}
+
+/* social hover */
+.fa-github:hover {
+  color: #fff;
+}
+
+.fa-linkedin:hover {
+  color: #fff;
+}
+
+.fa-skype:hover {
+  color: #fff;
+}
+
+.fa-envelope:hover {
+  color: #fff;
+}
