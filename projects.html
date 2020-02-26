@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
   <!-- page transition -->
-  <link rel="stylesheet" href="/transitions/projects.css">
+  <link rel="stylesheet" href="/css transitions/projects.css">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap" rel="stylesheet" />
   <!-- font awesome kit script -->
@@ -18,21 +18,32 @@
 
 <body class="pages-bg-color">
   <section class="container">
-    <header class="projects-header">
-      <h1>Recent Projects</h1>
-      <a href="index.html" class="projects-logo"><img src="img/logo.png" alt="https://lebogangolifant@github.com" /></a>
-
-      <nav class="topnav">
-        <div class="nav-btn" id="navLinks">
-          <a class="project-nav1" href="skills.html"><strong>.&nbsp;</strong> what i do</a>
-          <a class="project-nav2" href="contact.html"><strong>.&nbsp;</strong> get in touch</a>
-        </div>
-
-        <a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
+    <header>
+      <!--<a href="index.html" class="contact-logo"><img src="img/logo.png"
+              alt="https://lebogangolifant@github.com"></a>-->
     </header>
+
+    <nav class="topnav">
+      <div class="nav-btn" id="navLinks">
+        <div class="main-nav-link-wrapper">
+          <a href="contact.html"> get in touch</a>
+        </div>
+        <div class="main-nav-link-wrapper">
+          <a href="skills.html"> what i do</a>
+        </div>
+        <div class="main-nav-link-wrapper">
+          <a href="index.html"> home</a>
+        </div>
+      </div>
+
+      <a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <article class="short-profile">
+      <h1 class="page-heading">recent projects</h1>
+    </article>
 
     <!-- projects container -->
     <article class="projects-container">
@@ -43,20 +54,24 @@
 
         <!--project case study -->
         <div class="project-case-study">
-          <p><span>Project Details:</span>
-            <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
-              specialist in short-term insurance cover.
-            </p><br>
-            <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It must
-              be responsive and provide a seamless experience across all devices. I was responsible for the majority
-              of front-end development.
-            </p><br>
-            <p><span>Role:</span> Freelance Front-End Developer</p>
-            <p><span>Year:</p> 2019<br>
-            <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
-            <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
-                  class="fa fa-globe"></i></a></button>
-            <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          <div class="showcase-bg-right">
+            <p><span>Project Details:</span>
+              <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
+                specialist in short-term insurance cover.
+              </p><br>
+              <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It
+                must
+                be responsive and provide a seamless experience across all devices. I was responsible for the majority
+                of front-end development.
+              </p><br>
+              <p><span>Role:</span> Freelance Front-End Developer</p>
+              <p><span>Year:</p> 2019<br>
+              <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
+
+              <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
+                    class="fa fa-globe"></i></a></button>
+              <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          </div>
         </div>
       </div>
 
@@ -67,20 +82,24 @@
 
         <!--project case study -->
         <div class="project-case-study">
-          <p><span>Project Details:</span>
-            <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
-              specialist in short-term insurance cover.
-            </p><br>
-            <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It must
-              be responsive and provide a seamless experience across all devices. I was responsible for the majority
-              of front-end development.
-            </p><br>
-            <p><span>Role:</span> Freelance Front-End Developer</p>
-            <p><span>Year:</p> 2019<br>
-            <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
-            <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
-                  class="fa fa-globe"></i></a></button>
-            <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          <div class="showcase-bg-left">
+            <p><span>Project Details:</span>
+              <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
+                specialist in short-term insurance cover.
+              </p><br>
+              <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It
+                must
+                be responsive and provide a seamless experience across all devices. I was responsible for the majority
+                of front-end development.
+              </p><br>
+              <p><span>Role:</span> Freelance Front-End Developer</p>
+              <p><span>Year:</p> 2019<br>
+              <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
+
+              <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
+                    class="fa fa-globe"></i></a></button>
+              <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          </div>
         </div>
       </div>
 
@@ -90,20 +109,24 @@
 
         <!--project case study -->
         <div class="project-case-study">
-          <p><span>Project Details:</span>
-            <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
-              specialist in short-term insurance cover.
-            </p><br>
-            <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It must
-              be responsive and provide a seamless experience across all devices. I was responsible for the majority
-              of front-end development.
-            </p><br>
-            <p><span>Role:</span> Freelance Front-End Developer</p>
-            <p><span>Year:</p> 2019<br>
-            <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
-            <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
-                  class="fa fa-globe"></i></a></button>
-            <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          <div class="showcase-bg-right">
+            <p><span>Project Details:</span>
+              <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
+                specialist in short-term insurance cover.
+              </p><br>
+              <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It
+                must
+                be responsive and provide a seamless experience across all devices. I was responsible for the majority
+                of front-end development.
+              </p><br>
+              <p><span>Role:</span> Freelance Front-End Developer</p>
+              <p><span>Year:</p> 2019<br>
+              <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
+
+              <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
+                    class="fa fa-globe"></i></a></button>
+              <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          </div>
         </div>
       </div>
 
@@ -113,26 +136,30 @@
 
         <!--project case study -->
         <div class="project-case-study">
-          <p><span>Project Details:</span>
-            <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
-              specialist in short-term insurance cover.
-            </p><br>
-            <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It must
-              be responsive and provide a seamless experience across all devices. I was responsible for the majority
-              of front-end development.
-            </p><br>
-            <p><span>Role:</span> Freelance Front-End Developer</p>
-            <p><span>Year:</p> 2019<br>
-            <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
-            <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
-                  class="fa fa-globe"></i></a></button>
-            <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          <div class="showcase-bg-left">
+            <p><span>Project Details:</span>
+              <p>MT Insurance Brokers is an authorised financial service provider established in 2007,
+                specialist in short-term insurance cover.
+              </p><br>
+              <p><span>Brief:</span> Develop a website that reflect their latest business and marketing strategy. It
+                must
+                be responsive and provide a seamless experience across all devices. I was responsible for the majority
+                of front-end development.
+              </p><br>
+              <p><span>Role:</span> Freelance Front-End Developer</p>
+              <p><span>Year:</p> 2019<br>
+              <p><span>Built with:</span> HTML5 • CSS3 • JAVASCRIPT • BOOTSTRAP</p><br>
+
+              <button class="button btn1"><a href="http://www.mtinsurance.co.za/" target="_blank">view online <i
+                    class="fa fa-globe"></i></a></button>
+              <button class="button btn2"><a href="#">source code <i class="fab fa-github"></i></a></button>
+          </div>
         </div>
       </div>
     </article>
 
     <footer class="skills-footer">
-      <p>Wanna get in touch or talk about a project? <br>Feel free to get intouch with me me via contact page
+      <p>Want to talk about a project or collaborate? <br>Feel free to <a href="contact.html"> get in touch</a>
       </p>
     </footer>
   </section>
