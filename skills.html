@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <!-- page transition -->
-    <link rel="stylesheet" href="/transitions/skills.css">
+    <link rel="stylesheet" href="/css transitions/skills.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap" rel="stylesheet" />
     <!-- font awesome kit script -->
@@ -20,14 +20,21 @@
 
     <section class="container">
         <header>
-            <a href="index.html" class="skills-logo"><img src="img/logo.png"
-                    alt="https://lebogangolifant@github.com"></a>
+            <!--<a href="index.html" class="logo"><img src="img/logo.png" alt="https://lebogangolifant@github.com"></a>-->
         </header>
 
         <nav class="topnav">
+
             <div class="nav-btn" id="navLinks">
-                <a class="skill-nav1" href="projects.html"><strong>.&nbsp;</strong> projects</a>
-                <a class="skill-nav2" href="contact.html"><strong>.&nbsp;</strong> get in touch</a>
+                <div class="main-nav-link-wrapper">
+                    <a href="projects.html"> projects</a>
+                </div>
+                <div class="main-nav-link-wrapper">
+                    <a href="contact.html"> get in touch</a>
+                </div>
+                <div class="main-nav-link-wrapper">
+                    <a href="index.html"> home</a>
+                </div>
             </div>
 
             <a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
@@ -43,16 +50,15 @@
         <article class="services-container" id="services-bg-color">
             <div class="services">
                 <ul>
-                    <li><i class="fas fa-chevron-right fa-fw"></i> &nbsp;Implements responsive web design, mobile first
-                        approach.</li>
-                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Testing and debugging</li>
+                    <li><i class="fas fa-chevron-right fa-fw"></i> &nbsp;Implements responsive mobile design.</li>
+                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Testing the site for usability and fixing bugs
+                    </li>
                     <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Cross browser compatibility testing</li>
-                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Web perfomance</li>
-                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Expanding to backend development</li>
-                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Interest in working, in an Agile collaborative
-                        environment</li>
-                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;<a href="www.youtube.com">Documentary
-                            filmmaker</a> in my free time </li>
+                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Ensuring high-quality web performance</li>
+                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Production and maintenance of websites and web
+                        application user interfaces</li>
+                    <li><i class="fas fa-chevron-right fa-fw"></i>&nbsp;Prioritizing user experience</li>
+
                 </ul>
             </div>
         </article>
@@ -105,7 +111,8 @@
         </article>
 
         <footer class="skills-footer">
-            <p>Wanna get in touch or talk about a project? <br>Feel free to get intouch with me me via contact page</p>
+            <p>Want to talk about a project or collaborate? <br>Feel free to <a href="contact.html"> get in touch</a>
+            </p>
         </footer>
     </section>
 
