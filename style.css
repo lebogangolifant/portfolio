@@ -44,7 +44,7 @@ body {
 
 .title {
   font-family: "Cabin", sans-serif;
-  margin-top: 150px;
+  margin-top: 350px;
   line-height: 29px;
 }
 
@@ -67,7 +67,7 @@ body {
 
 /* short profile */
 .short-profile {
-  margin-top: 300px;
+  margin-top: 50px;
 }
 .short-profile p {
   text-align: justify;
