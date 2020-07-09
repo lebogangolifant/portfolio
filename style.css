@@ -66,7 +66,11 @@ body {
 }
 
 /* short profile */
+.short-profile {
+  margin-top: 300px;
+}
 .short-profile p {
+  text-align: justify;
   margin: 30px auto 0 auto;
   line-height: 29px;
   width: 40%;
