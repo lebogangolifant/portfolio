@@ -23,15 +23,16 @@ body {
 
 .logo img {
   width: 70px;
+  background-color: #fff;
   opacity: 1;
-  border: 8px solid #fff;
+  border: 1px solid #bdbcbc;
   border-radius: 100px;
 }
 
 .logo:hover img {
   width: 90px;
   opacity: 1;
-  border: 8px solid #4d4d4d;
+  border: 4px solid #4d4d4d;
   transition: 1.5s;
 }
 
@@ -530,6 +531,7 @@ body {
 .contact-profile a {
   text-decoration: none;
   color: #fdd935;
+  font-weight: bold;
 }
 
 /* contact nav */
