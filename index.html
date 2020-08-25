@@ -8,8 +8,6 @@
   <title>lebogang | web developer</title>
   <link rel="shortcut icon" href="img/title.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
-  <!-- page transition -->
-  <link rel="stylesheet" href="">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap" rel="stylesheet" />
   <!-- font awesome kit script -->
@@ -17,8 +15,55 @@
 </head>
 
 <body>
-
- 
+  <section>
+    <header>
+      <!-- logo -->
+      <a href="#" class="logo">projects</a>
+      <div class="toggle" onclick="toggleMenu();">
+        <i class="fas fa-align-right"></i>
+      </div>
+      <div class="toggleClose" onclick="toggleMenu();">
+        <i class="fas fa-times"></i>
+      </div>
+    </header>
+    <!-- landing text -->
+    <div class="landing-content">
+      <h2>i am</h2>
+      <h1>lebogang</h1>
+      <h2 id="text-indent">
+        a front-end <br />
+        web developer.
+      </h2>
+    </div>
+    <!-- social icon -->
+    <ul class="social-icons">
+      <li>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      </li>
+    </ul>
+    <!-- about info icon -->
+    <div class="info-icon">
+      <li>
+        contact<a href="contact.html"><i class="fas fa-info"></i></a>
+      </li>
+    </div>
+    <!-- nav section -->
+    <div class="nav">
+      <ul>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </section>
+  <script src="main.js"></script>
 </body>
 
 </html>
