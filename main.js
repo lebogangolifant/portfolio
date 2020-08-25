@@ -7,3 +7,8 @@ function toggleMenu() {
   navigation.classList.toggle('active');
   menuToggleClose.classList.toggle('active');
 }
+
+// projects  carousel
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
