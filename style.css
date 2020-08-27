@@ -1,13 +1,12 @@
-/*@import url("https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed&display=swap");*/
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "arial";
   padding: 0;
   margin: 0;
 }
 
 body {
+  font-family: 'Cairo', sans-serif;
   background-color: #1d1c1c;
   color: #fff;
   margin: 0;
@@ -44,10 +43,13 @@ header {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  color: #f3d841;
-  font-size: 18px;
+  color: #6d6d6d;
+  font-size: 20px;
   letter-spacing: 2px;
-
+font-weight: bold;
+}
+.logo:hover{
+  color: #f3d841;
 }
 
 .toggle {
@@ -88,7 +90,7 @@ header {
 
 .landing-content h1 {
   font-size: 6em;
-  font-weight: 900;
+  font-weight: bolder;
 }
 
 .landing-content h2 {
@@ -121,10 +123,13 @@ header {
 
 .social-icons li a {
   display: inline-block;
-  font-size: 30px;
+  font-size: 38px;
   color: #f3d841;
   text-decoration: none;
   transform: scale(0.6);
+}
+.social-icons li a:hover {
+ color: #fff;
 }
 
 /* info icons */
@@ -143,6 +148,9 @@ header {
   list-style: none;
   font-size: 0.9em;
 }
+.info-icon li:hover {
+  color: #f3d841;
+}
 
 .info-icon li a {
   display: inline-block;
@@ -153,6 +161,9 @@ header {
   text-decoration: none;
   transform: scale(0.6);
 }
+.info-icon li a:hover {
+  color: #fff;
+}
 
 /* nav section */
 .nav {
@@ -161,7 +172,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: rgba(14, 13, 13, 0.808);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +200,7 @@ header {
 
 .nav ul li a {
   display: inline-block;
-  color: #1d1c1c;
+  color: #f3d841;
   text-transform: uppercase;
   font-size: 2em;
   text-decoration: none;
@@ -197,7 +208,7 @@ header {
 }
 
 .nav ul li a:hover {
-  color: #f3d841;
+  color: #6d6d6d;
 }
 
 /* ============================== */
@@ -281,6 +292,7 @@ margin: -50px 0 10px 0;
 .carousel-description p {
   margin-right: 140px;
   font-size: 1.3em;
+  color: #8b8b8b;
 }
 
 .carousel-description button {
@@ -307,7 +319,7 @@ margin: -50px 0 10px 0;
 
 input[type="text"] {
   color: transparent;
-  text-shadow: 0 0 0 #fff;
+  text-shadow: 0 0 0 #8b8b8b;
   padding: 6px 12px;
   font-size: 11px;
   letter-spacing: 2px;
@@ -332,8 +344,9 @@ input[type="text"]:focus {
 input:focus+div#content {
   display: block;
 }
-
-/* about page section */
+/* ============================== */
+/* about|skills page */
+/* ============================== */
 .about-wrapper {
   margin: auto;
 }
@@ -342,7 +355,6 @@ input:focus+div#content {
   margin: 40px;
   padding: 20px;
 }
-
 
 .row {
   display: flex;
@@ -375,12 +387,17 @@ input:focus+div#content {
   height: 600px;
   width: 700px;
 }
+.about-column h1{
+  font-size: 3em;
+  letter-spacing: 10px;
+}
 
 .about-column p {
   text-transform: none;
-  color: #fff;
+  color: #8b8b8b;
   margin-top: 50px;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 100;
   line-height: 2;
   text-justify: justify;
 }
@@ -395,9 +412,13 @@ input:focus+div#content {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.skills-column h1{
+  font-size: 3em;
+  letter-spacing: 10px;
+}
 
 .services {
-  color: #fff;
+  color: #8b8b8b;
   margin-top: 50px;
   list-style-type: circle;
   text-transform: none;
@@ -407,7 +428,7 @@ input:focus+div#content {
 .services li {
   display: inline-block;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 .unique-color {
@@ -417,17 +438,25 @@ input:focus+div#content {
 .unique-color i {
   color: #f3d841;
 }
+.unique-color li {
+  color: #f3d841;
+}
 
+.skill-icons h1{
+  font-size: 1em;
+  margin-top: 50px;
+}
 .skill-icons li {
   display: inline-block;
-  margin-left: 10px;
+  padding: 30px;
   font-size: 16px;
+  color: #8b8b8b;
 }
 
 .skill-icons i {
   display: inline-block;
-  margin: 50px 0 0 50px;
-  font-size: 60px;
+  margin: 10px 0 0 10px;
+  font-size: 50px;
 }
 
 /* ============================== */
