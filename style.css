@@ -211,6 +211,17 @@ font-weight: bold;
   color: #6d6d6d;
 }
 
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#1d1c1c;
+  color: #8b8b8b;
+  text-align: center;
+}
+
 /* ============================== */
 /* projects page */
 /* ============================== */
@@ -460,6 +471,110 @@ input:focus+div#content {
 }
 
 /* ============================== */
+/* contact page */
+/* ============================== */
+.contacts-wrapper {
+  margin: auto;
+}
+
+.contacts-wrapper>div {
+  margin: 40px;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.contacts-column {
+  padding: 40px 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.contacts-column p {
+  text-transform: none;
+  color: #8b8b8b;
+  margin-top: 40%;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 2;
+  text-justify: justify;
+}
+
+.contacts-column button{
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #181717;
+  font-weight: 500;
+  background-color: #f3d841;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contacts-column button:hover{
+  color: #8b8b8b;
+  background-color: #1d1c1c;
+}
+
+.social-links-column {
+  color: #f3d841;
+  margin-top: 35%;
+  list-style-type: circle;
+  text-transform: none;
+  line-height: 2;
+  width: 200px;
+  height: 200px;
+}
+
+.social-links-column h1{
+  font-size: 2em;
+  margin-top: 7%;
+  letter-spacing: 4px;
+}
+.social-links-column li {
+  display: inline-block;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.social-links-column i {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  color: #8b8b8b;
+  font-size: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-links-column i:hover{
+  color: #f3d841;
+}
+
+
+/* ============================== */
 /* mobile responsive */
 /*================================ */
 /* landing page */
@@ -538,14 +653,14 @@ input:focus+div#content {
   display: none;
 }
 .carousel-description {
-  margin-top: -30px;
+  margin-top: -10px;
   width: 400px;
   padding-bottom: 100px;
 }
 
 .carousel-description p {
   margin: -10px 0 0 10px;
-  font-size: 3.8vw;
+  font-size: 5vw;
   ;
   width: 300px;
   text-align: justify;
@@ -568,9 +683,110 @@ input[type="text"] {
   visibility: hidden;
  
 }
+/* about|skills page */
+.about-wrapper {
+  margin: auto;
+}
 
+.about-wrapper>div {
+  margin: 0;
+  padding: 0;
+}
 
+.column {
+  margin: 70px 0 0 -40px;
+  padding: 20px;
+}
+
+.about-column {
+  color: #f3d841;
+  height: 600px;
+  width: 400px;
+  margin-bottom: -250px;
+}
+.about-column h1{
+  font-size: 5vw;
+  letter-spacing: 10px;
+}
+
+.about-column p {
+  word-wrap: break-word;
+  color: #8b8b8b;
+  margin-top: 50px;
+  font-size: 4vw;
+}
+
+.skills-column {
+  color: #f3d841;
+  padding: 40px 30px;
+  height: 900px;
+  width: 400px;
+}
+.skills-column h1{
+  font-size: 5vw;
+}
+
+.services {
+  color: #8b8b8b;
+  margin-top: 50px;
+  list-style-type: circle;
+  text-transform: none;
+  line-height: 2;
+}
+
+.services li {
+  font-size: 4.2vw;
+}
+
+.skill-icons h1{
+  font-size: 4vw;
+  margin-top: 50px;
+}
+.skill-icons li {
+  display: inline-block;
+  padding: 30px;
+  font-size: 4vw;
+  color: #8b8b8b;
+}
+
+.skill-icons i {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  font-size: 9vw;
+}
  
+/* contact page */
+.contacts-column {
+  width: 300px;
+  height: 200px;
+}
+
+.contacts-column p {
+  margin-top: -40%;
+  font-size: 4vw;
+  
+}
+
+.contacts-column button{
+  font-size: 4vw;
+  padding: 8px;
+}
+
+
+.social-links-column {
+  margin-top: -50%;
+  width: 300px;
+  height: 200px;
+}
+
+.social-links-column h1{
+  font-size: 6vw;
+}
+
+.social-links-column i {
+  font-size: 25px;
+}
+
 
 
 }
