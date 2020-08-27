@@ -24,7 +24,9 @@ section {
   overflow: hidden;
   text-align: center;
 }
-
+/* ========================== */
+/* home page */
+/* ========================== */
 /* header */
 header {
   position: absolute;
@@ -43,14 +45,14 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: #f3d841;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
-  font-weight: 900;
+
 }
 
 .toggle {
   position: relative;
-  font-size: 40px;
+  font-size: 36px;
   cursor: pointer;
   color: #f3d841;
 }
@@ -140,7 +142,6 @@ header {
 .info-icon li {
   list-style: none;
   font-size: 0.9em;
-
 }
 
 .info-icon li a {
@@ -201,103 +202,243 @@ header {
 
 /* ============================== */
 /* projects page */
+/* ============================== */
 .projects {
   margin: 10% auto auto auto;
   text-transform: uppercase;
   font-size: 1em;
 }
 
-.carousel{
-  margin: -150px auto 0 auto;
+.carousel {
+  margin: -250px auto 0 auto;
   height: 1000px;
-  perspective: 600px;
-  
-}
-.carousel .carousel-item{
-  width: 400px;
+  perspective: 700px;
 }
 
-.carousel .carousel-item img{
-  width: 100%;
+.carousel .carousel-item {
+  width: 600px;
+}
+
+.carousel .carousel-item img {
+  width: 600px;
   border-radius: 10px;
 }
 
-.carousel .carousel-item h1{
-  margin: -15px 0 0 200px;
+.carousel .carousel-item h1 {
+  margin: -10px 0 0 200px;
   padding: 0;
-  background: transparent;
+  background: #1d1c1c;
   box-sizing: border-box;
-  font-size: 3em;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 10px 5px;
+  visibility: hidden;
 }
-.carousel .carousel-item a{
+
+/* tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color:#1d1c1c;
+  color: #07d634;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 14px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.fa-globe{
+color: #07d634;
+font-size: 30px;
+margin: -50px 0 10px 0;
+}
+.fa-globe:hover .tooltiptext{
+  color: #07d634;
+  visibility: visible;
+  }
+  .fa-globe:hover{
+    color: #4e4e4e;
+    }
+
+.carousel .carousel-item a {
   text-decoration: none;
   color: #f3d841;
 }
 
-.carousel-description{
+.carousel-description {
   width: 800px;
 }
 
-.carousel-description p{
+.carousel-description p {
   margin-right: 140px;
-font-size: 1.3em;
-}
-.carousel-description button{
- margin: 10px 100px 0 0;
-font-size: 20px;
-font-family: sans-serif;
-cursor: pointer;
-z-index: 1;
+  font-size: 1.3em;
 }
 
-.carousel .carousel-item h1:hover{
+.carousel-description button {
+  margin: 10px 100px 0 0;
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #1d1c1c;
+  color: #f3d841;
+ border: none;
+  padding: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel .carousel-item h1:hover {
   color: #fff;
 }
 
-
-
-/*=============================*/
+/* project detail input */
 #content {
   display: none;
 }
 
-input[type="text"]{
-    color: transparent;
-    text-shadow: 0 0 0 #fff;
-    padding: 6px 12px;
-    font-size: 11px;
-    width: 150px;
-    border-bottom: 2px solid #f3d841;
-    cursor: pointer;
+input[type="text"] {
+  color: transparent;
+  text-shadow: 0 0 0 #fff;
+  padding: 6px 12px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  width: 150px;
+  cursor: pointer;
+  border: #fff;
+  
 }
 
-input[type="text"]:hover{
+input[type="text"]:hover {
   color: transparent;
   text-shadow: 0 0 0 #f3d841;
   cursor: pointer;
 }
-input[type="text"]:focus{
-    outline: none;
+
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: 3px solid #f3d841 !important;
 }
-input:focus + div#content {
+
+input:focus+div#content {
   display: block;
 }
 
+/* about page section */
+.about-wrapper {
+  margin: auto;
+}
+
+.about-wrapper>div {
+  margin: 40px;
+  padding: 20px;
+}
 
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.about-column {
+  color: #f3d841;
+  padding: 40px 30px;
+  height: 600px;
+  width: 700px;
+}
+
+.about-column p {
+  text-transform: none;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 1em;
+  line-height: 2;
+  text-justify: justify;
+}
+
+.skills-column {
+  color: #f3d841;
+  padding: 40px 30px;
+  height: 600px;
+  width: 700px;
+  background-color: #202020;
+  border: 1px solid #202020;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services {
+  color: #fff;
+  margin-top: 50px;
+  list-style-type: circle;
+  text-transform: none;
+  line-height: 2;
+}
+
+.services li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.unique-color {
+  color: #f3d841;
+}
+
+.unique-color i {
+  color: #f3d841;
+}
+
+.skill-icons li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.skill-icons i {
+  display: inline-block;
+  margin: 50px 0 0 50px;
+  font-size: 60px;
+}
 
 /* ============================== */
-      /* mobile responsive */
+/* mobile responsive */
 /*================================ */
 /* landing page */
 @media screen and (max-width: 600px) {
   .logo {
-    
+
     font-size: 4vw;
-   
+
     font-weight: normal;
   }
 
@@ -307,101 +448,100 @@ input:focus + div#content {
     cursor: pointer;
     color: #f3d841;
   }
+
   .landing-content {
     margin: 0 0 100px -120px;
     text-align: center;
   }
-  
+
   .landing-content h1 {
     font-size: 9vw;
     margin-left: 200px;
   }
-  
+
   .landing-content h2 {
     font-size: 3vw;
     margin-right: 10px;
   }
-  
+
   #text-indent {
     margin-left: 200px;
   }
+
+
+/* social icons */
+.social-icons {
+  bottom: 40px;
+  left: 50px;
+  letter-spacing: 4px;
+  flex-direction: row;
 }
 
+
 /* carousel projects showcase */
-@media screen and (max-width: 600px) {
-  .carousel{
-    margin: -150px 0 0 -30px;
-    height: 400px;
-    text-align: center;
-    perspective: 10px;
-    
-  }
-  .carousel .carousel-item{
-    width: 50px;
-    margin-left: -100px;
-  }
-  
-  .carousel .carousel-item img{
-    width: 250px;
-  }
-  
-  .carousel .carousel-item h1{
-    margin: -10px 0 0 90px;
-    font-size: 6vw;
-    letter-spacing: 3px;
-  }
-  .carousel-description{
-    width: 400px;
-    padding-bottom: 100px;
-  }
-  
-  .carousel-description p{
-  margin-right: 300px;
-  font-size: 3.8vw;
+.carousel {
+  margin: -200px 0 0 0;
+  height: 600px;
+  text-align: center;
+  perspective: 10px;
+}
+
+.carousel .carousel-item {
+  width: 50px;
+  margin-left: -130px;
+}
+
+.carousel .carousel-item img {
+  width: 300px;
+}
+
+.carousel .carousel-item h1 {
+  margin: -5px 0 -60px 90px;
+  font-size: 4vw;
+  letter-spacing: 3px;
+  visibility: visible;
+}
+.tooltip {
+  display: none;
+}
+.fa-globe{
+  visibility: hidden;
+  display: none;
+}
+.carousel-description {
+  margin-top: -30px;
+  width: 400px;
   padding-bottom: 100px;
-  width: 250px;
+}
+
+.carousel-description p {
+  margin: -10px 0 0 10px;
+  font-size: 3.8vw;
+  ;
+  width: 300px;
   text-align: justify;
-  }
-  .carousel-description button{
-   margin: 10px 100px 0 0;
-  font-size: 20px;
-  font-family: sans-serif;
-  cursor: pointer;
-  z-index: 1;
-  }
+}
+
+.carousel-description button {
+  visibility: hidden;
+}
+
+.input-box {
+  width: 10%;
+  display: inline-block;
+}
+
+#content {
+  display: block;
+}
+
+input[type="text"] {
+  visibility: hidden;
  
-  .input-box {
-    width: 10%;
-    display:inline-block;
-  }
-  #content {
-    display: block;
-  }
-  input[type="text"]{
-      font-size: 9vw;
-      padding: 60px 12px;
-      border-bottom: 2px solid #f3d841;
-      cursor: pointer;
-      text-transform: lowercase;
-      font-size: 12px;
-  }
-  .input-width{
-    height: 200px;
-  }
-  .input-width{
-    width: 100%;
-  }
+}
 
-  .carousel-description button{
-    margin: 10px 100px 20px 0;
-   font-size: 20px;
-   font-family: sans-serif;
-   cursor: pointer;
-   z-index: 1;
-   }
 
-  .social-icons li a{
-    display: none;
-  }
-  
+ 
+
+
 }
