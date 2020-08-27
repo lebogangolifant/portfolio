@@ -8,7 +8,3 @@ function toggleMenu() {
   menuToggleClose.classList.toggle('active');
 }
 
-// projects  carousel
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
