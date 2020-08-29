@@ -217,11 +217,23 @@ font-weight: bold;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding: 20px;
   background-color:#1d1c1c;
   color: #8b8b8b;
   text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
+.footer a{
+  color: #f3d841;
+  text-decoration: none;
+  
+}
+
+.footer a:hover{
+  color: #8b8b8b;
+}
 /* ============================== */
 /* projects page */
 /* ============================== */
@@ -513,29 +525,40 @@ input:focus+div#content {
   height: 200px;
 }
 
-.contacts-column p {
+.contacts-column h1{
+margin-top: 20%;
+font-size: 3em;
+color: #f3d841;
+letter-spacing: 10px;
+}
+
+.contacts-column h2 {
   text-transform: none;
   color: #8b8b8b;
-  margin-top: 40%;
-  font-size: 1.5em;
+  margin-top: 5%;
+  font-size: 1.3em;
   font-weight: 100;
   line-height: 2;
   text-justify: justify;
 }
 
-.contacts-column button{
-  font-size: 1em;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+.contacts-column h3 {
+  text-transform: none;
+  color: #8b8b8b;
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 2;
+  text-justify: justify;
+}
+
+.fa-envelope{
+  font-size: 35px;
+  text-decoration: none;
   margin-top: 20px;
-  color: #181717;
-  font-weight: 500;
-  background-color: #f3d841;
-  text-transform: uppercase;
+  color: #f3d841;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.contacts-column button:hover{
+.fa-envelope:hover{
   color: #8b8b8b;
   background-color: #1d1c1c;
 }
@@ -544,17 +567,11 @@ input:focus+div#content {
   color: #f3d841;
   margin-top: 38%;
   list-style-type: circle;
-  text-transform: none;
   line-height: 2;
   width: 500px;
   height: 200px;
 }
 
-.social-links-column h1{
-  font-size: 1.5em;
-  margin-top: 7%;
-  letter-spacing: 4px;
-}
 .social-links-column li {
   display: inline-block;
   padding: 30px;
@@ -563,14 +580,14 @@ input:focus+div#content {
 
 .social-links-column i {
   display: inline-block;
-  margin: 10px 0 0 10px;
-  color: #8b8b8b;
+  margin: 20px 0 0 10px;
+  color: #f3d841;
   font-size: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .social-links-column i:hover{
-  color: #f3d841;
+  color: #8b8b8b;
 }
 
 
@@ -601,6 +618,10 @@ input:focus+div#content {
   .landing-content h1 {
     font-size: 9vw;
     margin-left: 200px;
+  }
+
+  .footer {
+    font-size: 3.8vw;
   }
 
   .landing-content h2 {
@@ -686,6 +707,7 @@ input[type="text"] {
 /* about|skills page */
 .about-wrapper {
   margin: auto;
+  overflow: hidden;
 }
 
 .about-wrapper>div {
@@ -761,20 +783,30 @@ input[type="text"] {
   height: 200px;
 }
 
-.contacts-column p {
-  margin-top: -40%;
-  font-size: 4vw;
+.contacts-column h1{
+  margin-top: -20%;
+  font-size: 6vw;
+  }
   
+.contacts-column h2 {
+  margin-top: 10%;
+  font-size: 5vw;
 }
 
-.contacts-column button{
-  font-size: 4vw;
-  padding: 8px;
+.contacts-column h3 {
+  text-transform: none;
+  color: #8b8b8b;
+  font-size: 5vw;
+}
+
+.fa-envelope{
+  font-size: 25px;
+  margin-top: 7%;
 }
 
 
 .social-links-column {
-  margin-top: -50%;
+  margin-top: -10%;
   width: 300px;
   height: 200px;
 }
@@ -785,8 +817,7 @@ input[type="text"] {
 
 .social-links-column i {
   font-size: 25px;
+  margin-bottom: -100%;
 }
-
-
 
 }
