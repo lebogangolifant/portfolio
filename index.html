@@ -1,70 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lebogang Olifant</title>
+    <meta name="description" content="Lebogang Olifant, Front end Developer" />
+    <link rel="shortcut icon" href="img/title.png" type="image/x-icon" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome kit script -->
+    <script
+      src="https://kit.fontawesome.com/bcdb4329ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <a href="#" class="logo">LO.</a>
+      </header>
+      <!-- nav-->
+      <nav>
+        <a href="">about me</a>
+        <a href="">skills</a>
+        <a href="">projects</a>
+        <a href="">contacts</a>
+      </nav>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>lebogang | web developer</title>
-  <link rel="shortcut icon" href="img/title.png" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-  <!-- font awesome kit script -->
-  <script src="https://kit.fontawesome.com/bcdb4329ce.js" crossorigin="anonymous"></script>
-</head>
+      <!-- about -->
+      <section class="personal-info">
+        <h1>Lebogang Olifant</h1>
+        <h2>Front end Developer</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          illum molestias maiores ex soluta dolor, recusandae sed porro
+          cupiditate dicta.
+        </p>
+      </section>
 
-<body>
-  <section>
-    <header>
-      <!-- logo -->
-      <a href="skills.html" class="logo">{ ... }</a>
-      <div class="toggle" onclick="toggleMenu();">
-        <i class="fas fa-align-right"></i>
-      </div>
-      <div class="toggleClose" onclick="toggleMenu();">
-        <i class="fas fa-times"></i>
-      </div>
-    </header>
-    <!-- landing text -->
-    <div class="landing-content">
-      <h2> Hello, i am</h2>
-      <h1>lebogang</h1>
-      <h2 id="text-indent">
-        a front-end <br />
-        web developer.
-      </h2>
-      <a href="skills.html" class="landing-button">get to know me</a>
-    </div>
-    <!-- social icon -->
-    <ul class="social-icons">
-      <li>
-        <a href="https://github.com/lebogangolifant" target="_blank"><i class="fab fa-github"></i></a>
-      </li>
-      <li>
-        <a href="https://linkedin.com/in/lebogangolifant" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </li>
-      <li>
-        <a href="https://t.me/web_dev_projects" target="_blank"><i class="fa fa-telegram"></i></a>
-      </li>
-    </ul>
-    <!-- about info icon -->
-    <div class="info-icon">
-      <li>
-        contact<a href="contact.html"><i class="fas fa-info"></i></a>
-      </li>
-    </div>
-    <!-- menu nav section -->
-    <div class="nav">
-      <ul>
-        <li><a href="skills.html">about | skills</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="index.html">intro</a></li>
-      </ul>
-    </div>
-  </section>
-  <script src="main.js"></script>
-</body>
+      <!-- skills -->
+      <section class="tech-skills">
+        <h1>some technology i worked with</h1>
+        <ul>
+          <li>html</li>
+          <li>css/sass</li>
+          <li>javascript/jquery</li>
+          <li>Bootstrap</li>
+          <li>Reactjs</li>
+          <li>Gulp</li>
+          <li>nodejs</li>
+        </ul>
+      </section>
+      <!-- projects -->
+      <section class="projects">
+        <h1>personal projects</h1>
+        <!-- project 1 -->
+        <div class="flex-projects">
+          <img src="img/documentary.png" alt="" />
+          <div class="project-desc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              culpa obcaecati ducimus non ut debitis?
+            </p>
+            <a href="">view</a>
+            <a href="">github</a>
+          </div>
+        </div>
+        <!-- project 2 -->
+        <div class="flex-projects">
+          <img src="img/documentary.png" alt="" />
+          <div class="project-desc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              culpa obcaecati ducimus non ut debitis?
+            </p>
+            <a href="">view</a>
+            <a href="">github</a>
+          </div>
+        </div>
+        <!-- project 3 -->
+        <div class="flex-projects">
+          <img src="img/documentary.png" alt="" />
+          <div class="project-desc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              culpa obcaecati ducimus non ut debitis?
+            </p>
+            <a href="">view</a>
+            <a href="">github</a>
+          </div>
+        </div>
+        <!-- project 4 -->
+        <div class="flex-projects">
+          <img src="img/documentary.png" alt="" />
+          <div class="project-desc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              culpa obcaecati ducimus non ut debitis?
+            </p>
+            <a href="">view</a>
+            <a href="">github</a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <p>&copy; 2020 Lebogang Olifant</p>
+        <p><a href="mailto:lebogangb,olifant@gmail.com">mail</a></p>
+      </footer>
 
+      <!-- end of container-->
+    </div>
+  </body>
 </html>
