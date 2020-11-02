@@ -1,10 +1,9 @@
 // menu toggle
-function toggleMenu() {
-  const menuToggle = document.querySelector('.toggle');
-  const navigation = document.querySelector('.nav');
-  const menuToggleClose = document.querySelector('.toggleClose');
-  menuToggle.classList.toggle('active');
-  navigation.classList.toggle('active');
-  menuToggleClose.classList.toggle('active');
+function openPortfolio(portfolioTitle) {
+  var i;
+  var x = document.getElementsByClassName("portfolio");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(portfolioTitle).style.display = "block";
 }
-
