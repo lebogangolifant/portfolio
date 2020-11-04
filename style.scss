@@ -1,55 +1,114 @@
-html,
+html {
+  scroll-behavior: smooth;
+}
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+  height: 100%;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
-/* container */
-.container{
-  margin: auto;
-  padding: 5px;
-  max-width: 950px;
+/* global style */
+p {
+  font-size: 16px;
 }
-@media (max-width: 600px) {
-  .container{
-    padding: 20px;
-  }
+.margin {
+  margin-bottom: 45px;
+}
+ 
+/* section background */
+.bg-1 { 
+  background-color: #f79b77;
+  color: #555;
+  height: 500px;
+}
+.bg-2 { 
+  background-color: #474e5d; 
+  color: #fff;
+}
+.bg-3 { 
+  background-color: #fff; 
+  color: #555;
+}
+.bg-4 { 
+  background-color: #474e5d;
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-/* header */
-header{
-  margin-top: 30px;
-  .logo {
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
+.navbar-brand{
+  font-weight: 1000;
+  font-size: 12px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #f79b77 !important;
+}
+
+/* skills */
+.unique-color {
+  color: #f79b77;
+  i {
+    color: #f79b77;
   }
-  a {
-    text-decoration: none;
-    color: #f0a966;
-    font-size: 18px;
-  }
-  a:hover{
-    color: #202020;
+  li {
+    color: #f79b77;
   }
   
 }
-nav {
-  float: right;
-  text-transform: uppercase;
-  
- a {
-  padding: 90px 10px;
-  font-weight: 600;
-  color: #202020;
-  text-decoration: none;
+
+.skill-icons {
+  h1{
+    font-size: 1em;
+    margin-top: 50px;
+  }
+  li {
+    display: inline-block;
+    padding: 30px;
+    font-size: 16px;
+    color: #8b8b8b;
+  }
+   i {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    font-size: 50px;
+  }
 }
 
+/* footer */
+
+.social-links-column {
+  color: #f79b77;
+  list-style-type: circle;
+  line-height: 2;
 }
 
-/* about section */
-.personal-info{
-  margin-top: 100px;
+.social-links-column li {
+  display: inline-block;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.social-links-column i {
+  display: inline-block;
+  margin: 20px 0 0 10px;
+  color: #f79b77;
+  font-size: 35px;
+}
+
+.social-links-column i:hover{
+  color: #8b8b8b;
 }
 
 
