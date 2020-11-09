@@ -105,6 +105,18 @@ p {
   }
 }
 
+/* mobile responsive */
+@media (max-width: 576px) { 
+  .bio-content {
+    h1 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+ }
+
 /* skills */
 .unique-color {
   color: #f79b77;
