@@ -23,6 +23,19 @@ p {
     background-color: #474e5d;
   }
 }
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* mobile responsive */
+@media (max-width: 576px) { 
+  .title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+ }
  
 /* section background */
 .bg-1 { 
@@ -55,6 +68,7 @@ p {
     color: #474e5d;
   }
 }
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -87,6 +101,7 @@ p {
 }
 .bio-image img{
   border-radius:none;
+  background-color: none;
 }
 .bio-content{
   text-align:left;
@@ -172,12 +187,26 @@ p {
   font-size: 16px;
 }
 
+/* mobile responsive */
+@media (max-width: 576px) { 
+  .social-links-column li{
+    margin: 40px 0 90px -60px;
+  }
+ }
+
 .social-links-column i {
   display: inline-block;
   margin: 20px 0 0 10px;
   color: #f79b77;
   font-size: 35px;
 }
+
+/* mobile responsive */
+@media (max-width: 576px) { 
+  .social-links-column i{
+    font-size: 28px;
+  }
+ }
 
 .social-links-column i:hover{
   color: #8b8b8b;
