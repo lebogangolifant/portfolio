@@ -1,0 +1,23 @@
+{
+  "name": "v.0.2-site",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebogangolifant/portfolio.git"
+  },
+  "author": "Lebogang Olifant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebogangolifant/portfolio/issues"
+  },
+  "homepage": "https://github.com/lebogangolifant/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
