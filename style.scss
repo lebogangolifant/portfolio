@@ -11,6 +11,7 @@ body {
 /* global style */
 p {
   font-size: 16px;
+ 
 }
 .margin {
   margin-bottom: 45px;
@@ -114,6 +115,7 @@ p {
   a span {
     color: #fff;
     text-decoration: none;
+    text-transform: none;
   }
   a :hover {
     color: #474e5d;
@@ -164,10 +166,19 @@ p {
 }
 
 /* projects */
+
+.projects-text {
+  text-align: justify;
+}
 .row a {
   color: #f79b77;
   text-decoration: none;
-  font-size: 18px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.project-links{
+  margin-bottom: 50px;
 }
 
 .row a:hover {
