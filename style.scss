@@ -177,6 +177,13 @@ p {
   font-size: 14px;
 }
 
+.disabled-link {
+  cursor: default;
+  pointer-events: none;        
+  text-decoration: line-through;
+  color: #474e5d;
+}
+
 .project-links{
   margin-bottom: 50px;
 }
