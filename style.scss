@@ -101,6 +101,7 @@ p {
   text-align:center;
 }
 .bio-image img{
+  width: 100px;
   border-radius:none;
   background-color: none;
 }
@@ -124,7 +125,7 @@ p {
 
 /* mobile responsive */
 @media (max-width: 576px) { 
-  .bio-content {
+  .bio-content h1 {
     h1 {
       font-size: 25px;
     }
@@ -166,7 +167,6 @@ p {
 }
 
 /* projects */
-
 .projects-text {
   text-align: justify;
 }
