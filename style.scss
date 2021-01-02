@@ -101,6 +101,7 @@ p {
   text-align:center;
 }
 .bio-image img{
+  margin-top: 50px;
   width: 100px;
   border-radius:none;
   background-color: none;
@@ -131,7 +132,9 @@ p {
     h3 {
       font-size: 12px;
     }
-  
+  .bio-image {
+    margin-top: -50px;
+  }
  }
 
 /* skills */
